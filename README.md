@@ -6,7 +6,7 @@ William Huber at http://stats.stackexchange.com/a/17556/43909
 ##### How to run the program:
 ```python main.py```
 
-![Output](https://github.com/cosmoharrigan/matrix-entropy/blob/master/output.png)
+![Output](https://raw.githubusercontent.com/cosmoharrigan/matrix-entropy/master/output.png)
 
 ```
 ---------
