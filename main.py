@@ -5,7 +5,7 @@ StackExchange answer written by WilliamAHuber for
 http://stats.stackexchange.com/a/17556/43909
 
 Copyright 2014 Cosmo Harrigan
-This program is free software, distributed under the terms of the GNU AGPL v3.0
+This program is free software, distributed under the terms of the GNU LGPL v3.0
 """
 
 __author__ = 'Cosmo Harrigan'
