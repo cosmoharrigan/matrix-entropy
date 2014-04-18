@@ -1,10 +1,12 @@
 Python implementation of the matrix information measurement examples from the
 Stats StackExchange answer for
-"Measuring entropy/ information/ patterns of a 2d binary matrix" written by
+**Measuring entropy/ information/ patterns of a 2d binary matrix** written by
 William Huber at http://stats.stackexchange.com/a/17556/43909
 
-##### How to run the program:
+##### Running the program:
 ```python main.py```
+
+##### Output:
 
 ![Output](https://raw.githubusercontent.com/cosmoharrigan/matrix-entropy/master/output.png)
 
