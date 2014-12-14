@@ -17,10 +17,10 @@ def moving_window_filter(matrix, f, neighborhood_size):
     @input neighborhood_size The size of the neighborhood for the function
     application
     """
-    matrix_width, matrix_height = matrix.shape
+    matrix_height, matrix_width = matrix.shape
 
-    output_matrix = np.zeros([matrix_width - neighborhood_size + 1,
-                              matrix_height - neighborhood_size + 1])
+    output_matrix = np.zeros([matrix_height - neighborhood_size + 1,
+                              matrix_width - neighborhood_size + 1])
 
     for (row_num, col_num), value in np.ndenumerate(matrix):
         # Check if it already arrived at the right-hand edge as defined by the

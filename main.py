@@ -24,7 +24,7 @@ from data import *
 # Iterate over the input matrices
 for m in range(0, len(input_matrices)):
     active_matrix = input_matrices[m]
-    print "---------\nMatrix #{0}\n---------\n".format(m)
+    print("---------\nMatrix #{0}\n---------\n".format(m))
 
     # Produce the filtered matrices at varying scales and the associated
     # entropy "profiles"
@@ -41,8 +41,8 @@ for m in range(0, len(input_matrices)):
                       cmap='Greys_r',
                       vmin=0,
                       vmax=1)
-        print "Neighborhood size = {0}\n{1}\n".format(n, output_matrix)
+        print("Neighborhood size = {0}\n{1}\n".format(n, output_matrix))
 
-    print "Profile:\n{0}\n".format(profile(matrices))
+    print("Profile:\n{0}\n".format(profile(matrices)))
 
 pyplot.show()
